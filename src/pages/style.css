@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 60%;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Añadido para centrar texto */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    border-width: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: currentcolor;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nameTimeZone {
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+    margin:0;  /* Ajusta la separación hacia abajo */
+}
+
+.currentTime {
+    font-size: 100px;
+    margin:0; /* Ajusta la separación hacia abajo */
+}
+
+.currentDate {
+    font-size: 25px;
+    margin:0;  /* Ajusta la separación hacia abajo */
+}
